@@ -1,0 +1,1878 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><configurationDescriptor version="65">
+  <logicalFolder displayName="root" name="root" projectFiles="true">
+    <logicalFolder displayName="Header Files" name="HeaderFiles" projectFiles="true">
+      <logicalFolder displayName="app_config" name="f4" projectFiles="true">
+        <logicalFolder displayName="non_gui" name="f1" projectFiles="true">
+          <logicalFolder displayName="16K" name="f1" projectFiles="true">
+            <itemPath>../src/app_config/non_gui/16K/app_config.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="sam_e54_cult_wm8904" name="f1" projectFiles="true">
+          <logicalFolder displayName="audio" name="f3" projectFiles="true">
+            <logicalFolder displayName="driver" name="f1" projectFiles="true">
+              <logicalFolder displayName="codec" name="f2" projectFiles="true">
+                <logicalFolder displayName="wm8904" name="f1" projectFiles="true">
+                  <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/codec/wm8904/drv_wm8904.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder displayName="i2s" name="f1" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/i2s/drv_i2s.h</itemPath>
+                <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/i2s/drv_i2s_definitions.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="peripheral" name="f2" projectFiles="true">
+              <logicalFolder displayName="i2s" name="f1" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/audio/peripheral/i2s/plib_i2s.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="bsp" name="f2" projectFiles="true">
+            <itemPath>../src/config/sam_e54_cult_wm8904/bsp/bsp.h</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="driver" name="f4" projectFiles="true">
+            <logicalFolder displayName="i2c" name="f1" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/driver/i2c/drv_i2c.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/driver/i2c/drv_i2c_definitions.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/config/sam_e54_cult_wm8904/driver/driver.h</itemPath>
+            <itemPath>../src/config/sam_e54_cult_wm8904/driver/driver_common.h</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="osal" name="f6" projectFiles="true">
+            <itemPath>../src/config/sam_e54_cult_wm8904/osal/osal.h</itemPath>
+            <itemPath>../src/config/sam_e54_cult_wm8904/osal/osal_definitions.h</itemPath>
+            <itemPath>../src/config/sam_e54_cult_wm8904/osal/osal_impl_basic.h</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="peripheral" name="f1" projectFiles="true">
+            <logicalFolder displayName="clock" name="f4" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/clock/plib_clock.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="cmcc" name="f7" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/cmcc/plib_cmcc.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="dmac" name="f6" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/dmac/plib_dmac.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="nvic" name="f5" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/nvic/plib_nvic.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="nvmctrl" name="f1" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/nvmctrl/plib_nvmctrl.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="port" name="f3" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/port/plib_port.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="sercom" name="f2" projectFiles="true">
+              <logicalFolder displayName="i2c_master" name="f2" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/sercom/i2c_master/plib_sercom_i2c_master_common.h</itemPath>
+                <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/sercom/i2c_master/plib_sercom6_i2c_master.h</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="usart" name="f1" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/sercom/usart/plib_sercom1_usart.h</itemPath>
+                <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/sercom/usart/plib_sercom_usart_common.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="tc" name="f8" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/tc/plib_tc_common.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/tc/plib_tc0.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/tc/plib_tc2.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="system" name="f5" projectFiles="true">
+            <logicalFolder displayName="cache" name="f3" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/cache/sys_cache.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="debug" name="f5" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/debug/sys_debug.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="dma" name="f4" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/dma/sys_dma.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/dma/sys_dma_mapping.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="int" name="f2" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/int/sys_int.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/int/sys_int_mapping.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="time" name="f1" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/time/sys_time.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/time/sys_time_definitions.h</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/time/src/sys_time_local.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/config/sam_e54_cult_wm8904/system/system.h</itemPath>
+            <itemPath>../src/config/sam_e54_cult_wm8904/system/system_common.h</itemPath>
+            <itemPath>../src/config/sam_e54_cult_wm8904/system/system_module.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/config/sam_e54_cult_wm8904/device_cache.h</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/toolchain_specifics.h</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/definitions.h</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/device.h</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/user.h</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/configuration.h</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="edge-impulse-sdk" name="edge-impulse-sdk" projectFiles="true">
+        <logicalFolder displayName="anomaly" name="anomaly" projectFiles="true">
+          <itemPath>../src/edge-impulse-sdk/anomaly/anomaly.h</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="classifier" name="classifier" projectFiles="true">
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_aligned_malloc.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_classifier_config.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_classifier_smooth.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_classifier_types.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_model_types.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_run_classifier.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_run_classifier_image.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/classifier/ei_run_dsp.h</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="CMSIS" name="CMSIS" projectFiles="true">
+          <logicalFolder displayName="Core" name="Core" projectFiles="true">
+            <logicalFolder displayName="Include" name="Include" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/cmsis_version.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_armv81mml.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_armv8mbl.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_armv8mml.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm0.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm0plus.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm1.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm23.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm3.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm33.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm35p.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm4.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm55.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_cm7.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_sc000.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/core_sc300.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/mpu_armv8.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/pmu_armv8.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/Core/Include/tz_context.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="DSP" name="DSP" projectFiles="true">
+            <logicalFolder displayName="Include" name="Include" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_common_tables.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_common_tables_f16.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_const_structs.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_const_structs_f16.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_helium_utils.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_math.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_math_f16.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_mve_tables.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_mve_tables_f16.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_vec_math.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="PrivateInclude" name="PrivateInclude" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/PrivateInclude/arm_sorting.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/PrivateInclude/arm_vec_fft.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/PrivateInclude/arm_vec_filtering.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="Source" name="Source" projectFiles="true">
+              <logicalFolder displayName="BasicMathFunctions" name="BasicMathFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="BayesFunctions" name="BayesFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="CommonTables" name="CommonTables" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="ComplexMathFunctions" name="ComplexMathFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="ControllerFunctions" name="ControllerFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="DistanceFunctions" name="DistanceFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance_template.h</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="FastMathFunctions" name="FastMathFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="FilteringFunctions" name="FilteringFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="MatrixFunctions" name="MatrixFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="StatisticsFunctions" name="StatisticsFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="SupportFunctions" name="SupportFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="SVMFunctions" name="SVMFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="TransformFunctions" name="TransformFunctions" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="NN" name="NN" projectFiles="true">
+            <logicalFolder displayName="Include" name="Include" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Include/arm_nnfunctions.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Include/arm_nnsupportfunctions.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Include/arm_nn_tables.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Include/arm_nn_types.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="Source" name="Source" projectFiles="true">
+              <logicalFolder displayName="ActivationFunctions" name="ActivationFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="BasicMathFunctions" name="BasicMathFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="ConcatenationFunctions" name="ConcatenationFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="ConvolutionFunctions" name="ConvolutionFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="FullyConnectedFunctions" name="FullyConnectedFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="NNSupportFunctions" name="NNSupportFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="PoolingFunctions" name="PoolingFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="ReshapeFunctions" name="ReshapeFunctions" projectFiles="true">
+              </logicalFolder>
+              <logicalFolder displayName="SoftmaxFunctions" name="SoftmaxFunctions" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder displayName="dsp" name="dsp" projectFiles="true">
+          <logicalFolder displayName="dct" name="dct" projectFiles="true">
+            <itemPath>../src/edge-impulse-sdk/dsp/dct/fast-dct-fft.h</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="kissfft" name="kissfft" projectFiles="true">
+            <itemPath>../src/edge-impulse-sdk/dsp/kissfft/kissfft.h</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/kissfft/kiss_fft.h</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/kissfft/kiss_fftr.h</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/kissfft/_kiss_fft_guts.h</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="spectral" name="spectral" projectFiles="true">
+            <itemPath>../src/edge-impulse-sdk/dsp/spectral/feature.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/spectral/filters.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/spectral/processing.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/spectral/spectral.hpp</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="speechpy" name="speechpy" projectFiles="true">
+            <itemPath>../src/edge-impulse-sdk/dsp/speechpy/feature.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/speechpy/functions.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/speechpy/processing.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/speechpy/speechpy.hpp</itemPath>
+          </logicalFolder>
+          <itemPath>../src/edge-impulse-sdk/dsp/config.hpp</itemPath>
+          <itemPath>../src/edge-impulse-sdk/dsp/memory.hpp</itemPath>
+          <itemPath>../src/edge-impulse-sdk/dsp/numpy.hpp</itemPath>
+          <itemPath>../src/edge-impulse-sdk/dsp/numpy_types.h</itemPath>
+          <itemPath>../src/edge-impulse-sdk/dsp/returntypes.hpp</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="porting" name="porting" projectFiles="true">
+          <itemPath>../src/edge-impulse-sdk/porting/ei_classifier_porting.h</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="tensorflow" name="tensorflow" projectFiles="true">
+          <logicalFolder displayName="core" name="core" projectFiles="true">
+            <logicalFolder displayName="public" name="public" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/tensorflow/core/public/version.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="lite" name="lite" projectFiles="true">
+            <logicalFolder displayName="c" name="c" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/c/common.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="core" name="core" projectFiles="true">
+              <logicalFolder displayName="api" name="api" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/profiler.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="kernels" name="kernels" projectFiles="true">
+              <logicalFolder displayName="internal" name="internal" projectFiles="true">
+                <logicalFolder displayName="optimized" name="optimized" projectFiles="true">
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/optimized/neon_check.h</itemPath>
+                </logicalFolder>
+                <logicalFolder displayName="reference" name="reference" projectFiles="true">
+                  <logicalFolder displayName="integer_ops" name="integer_ops" projectFiles="true">
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/add.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/conv.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/depthwise_conv.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/fully_connected.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/l2normalization.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/logistic.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/mul.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/pooling.h</itemPath>
+                    <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/integer_ops/tanh.h</itemPath>
+                  </logicalFolder>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/add.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/arg_min_max.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/binary_function.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/ceil.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/comparisons.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/concatenation.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/conv.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/depthwiseconv_float.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/depthwiseconv_uint8.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/dequantize.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/floor.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/fully_connected.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/l2normalization.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/logistic.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/maximum_minimum.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/mul.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/neg.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/pad.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/pooling.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/prelu.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/process_broadcast_shapes.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/quantize.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/reduce.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/requantize.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/resize_nearest_neighbor.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/round.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/softmax.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/strided_slice.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/sub.h</itemPath>
+                  <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/reference/tanh.h</itemPath>
+                </logicalFolder>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/common.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/compatibility.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/cppmath.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/max.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/min.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/strided_slice_logic.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/tensor_ctypes.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/types.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/op_macros.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/padding.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="micro" name="micro" projectFiles="true">
+              <logicalFolder displayName="kernels" name="kernels" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/activation_utils.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_ops.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_utils.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_tf_utils.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.h</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="memory_planner" name="memory_planner" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/memory_planner.h</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="testing" name="testing" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/testing/micro_test.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/compatibility.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/debug_log.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_mutable_op_resolver.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_op_resolver.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_string.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_time.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_interpreter.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="schema" name="schema" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/schema/schema_generated.h</itemPath>
+            </logicalFolder>
+            <itemPath>../src/edge-impulse-sdk/tensorflow/lite/string_type.h</itemPath>
+            <itemPath>../src/edge-impulse-sdk/tensorflow/lite/string_util.h</itemPath>
+            <itemPath>../src/edge-impulse-sdk/tensorflow/lite/type_to_tflitetype.h</itemPath>
+            <itemPath>../src/edge-impulse-sdk/tensorflow/lite/version.h</itemPath>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder displayName="third_party" name="third_party" projectFiles="true">
+          <logicalFolder displayName="arc_mli_package" name="arc_mli_package" projectFiles="true">
+            <logicalFolder displayName="bin" name="bin" projectFiles="true">
+              <logicalFolder displayName="emsdp_em11d_em9d_dfss" name="emsdp_em11d_em9d_dfss" projectFiles="true">
+                <logicalFolder displayName="release" name="release" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="include" name="include" projectFiles="true">
+              <logicalFolder displayName="api" name="api" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_helpers_api.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_kernels_api.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_avepool_spec_api.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_conv2d_spec_api.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_depthwise_conv2d_spec_api.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_krn_maxpool_spec_api.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/api/mli_mov_api.h</itemPath>
+              </logicalFolder>
+              <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/mli_api.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/mli_config.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/third_party/arc_mli_package/include/mli_types.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="flatbuffers" name="flatbuffers" projectFiles="true">
+            <logicalFolder displayName="include" name="include" projectFiles="true">
+              <logicalFolder displayName="flatbuffers" name="flatbuffers" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/base.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/flatbuffers.h</itemPath>
+                <itemPath>../src/edge-impulse-sdk/third_party/flatbuffers/include/flatbuffers/stl_emulation.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="gemmlowp" name="gemmlowp" projectFiles="true">
+            <logicalFolder displayName="fixedpoint" name="fixedpoint" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/third_party/gemmlowp/fixedpoint/fixedpoint.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/third_party/gemmlowp/fixedpoint/fixedpoint_neon.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/third_party/gemmlowp/fixedpoint/fixedpoint_sse.h</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="internal" name="internal" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/third_party/gemmlowp/internal/detect_platform.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="ruy" name="ruy" projectFiles="true">
+            <logicalFolder displayName="ruy" name="ruy" projectFiles="true">
+              <logicalFolder displayName="profiler" name="profiler" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/third_party/ruy/ruy/profiler/instrumentation.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="model-parameters" name="model-parameters" projectFiles="true">
+        <itemPath>../src/model-parameters/dsp_blocks.h</itemPath>
+        <itemPath>../src/model-parameters/model_metadata.h</itemPath>
+      </logicalFolder>
+      <logicalFolder displayName="packs" name="f2" projectFiles="true">
+        <logicalFolder displayName="ATSAME54P20A_DFP" name="f1" projectFiles="true">
+          <logicalFolder displayName="component" name="f1" projectFiles="true">
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/ac.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/adc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/aes.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/can.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/ccl.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/cmcc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/dac.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/dmac.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/dsu.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/eic.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/evsys.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/freqm.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/gclk.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/gmac.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/hmatrixb.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/i2s.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/icm.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/mclk.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/nvmctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/osc32kctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/oscctrl.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/pac.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/pcc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/pdec.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/pm.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/port.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/pukcc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/qspi.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/ramecc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/rstc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/rtc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/sdhc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/sercom.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/supc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/tc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/tcc.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/trng.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/usb.h</itemPath>
+            <itemPath>../src/packs/ATSAME54P20A_DFP/component/wdt.h</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="pio" name="f2" projectFiles="true">
+            <itemPath>../src/packs/ATSAME54P20A_DFP/pio/same54p20a.h</itemPath>
+          </logicalFolder>
+          <itemPath>../src/packs/ATSAME54P20A_DFP/atsame54p20a.h</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="CMSIS" name="f2" projectFiles="true">
+          <logicalFolder displayName="CMSIS" name="f1" projectFiles="true">
+            <logicalFolder displayName="Core" name="f1" projectFiles="true">
+              <logicalFolder displayName="Include" name="f1" projectFiles="true">
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_version.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_compiler.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_iccarm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_gcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armcc.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cmsis_armclang_ltm.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/core_cm4.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/mpu_armv7.h</itemPath>
+                <itemPath>../src/packs/CMSIS/CMSIS/Core/Include/cachel1_armv7.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="tflite-model" name="tflite-model" projectFiles="true">
+        <itemPath>../src/tflite-model/trained_model_compiled.h</itemPath>
+      </logicalFolder>
+      <itemPath>../src/app.h</itemPath>
+    </logicalFolder>
+    <logicalFolder displayName="Linker Files" name="LinkerScript" projectFiles="true">
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="sam_e54_cult_wm8904" name="f1" projectFiles="true">
+          <itemPath>../src/config/sam_e54_cult_wm8904/ATSAME54P20A.ld</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+    </logicalFolder>
+    <logicalFolder displayName="Source Files" name="SourceFiles" projectFiles="true">
+      <logicalFolder displayName="app_config" name="f2" projectFiles="true">
+        <logicalFolder displayName="non_guio" name="f1" projectFiles="true">
+          <itemPath>../src/app_config/non_gui/non_gui.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="config" name="f1" projectFiles="true">
+        <logicalFolder displayName="sam_e54_cult_wm8904" name="f1" projectFiles="true">
+          <logicalFolder displayName="audio" name="f4" projectFiles="true">
+            <logicalFolder displayName="driver" name="f1" projectFiles="true">
+              <logicalFolder displayName="codec" name="f2" projectFiles="true">
+                <logicalFolder displayName="wm8904" name="f1" projectFiles="true">
+                  <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/codec/wm8904/drv_wm8904.c</itemPath>
+                  <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/codec/wm8904/drv_wm8904_local.h</itemPath>
+                </logicalFolder>
+              </logicalFolder>
+              <logicalFolder displayName="i2s" name="f1" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/i2s/src/drv_i2s.c</itemPath>
+                <itemPath>../src/config/sam_e54_cult_wm8904/audio/driver/i2s/src/drv_i2s_local.h</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="peripheral" name="f2" projectFiles="true">
+              <logicalFolder displayName="i2s" name="f1" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/audio/peripheral/i2s/plib_i2s.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="bsp" name="f3" projectFiles="true">
+            <itemPath>../src/config/sam_e54_cult_wm8904/bsp/bsp.c</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="driver" name="f5" projectFiles="true">
+            <logicalFolder displayName="i2c" name="f1" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/driver/i2c/src/drv_i2c.c</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/driver/i2c/src/drv_i2c_local.h</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="peripheral" name="f1" projectFiles="true">
+            <logicalFolder displayName="clock" name="f4" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/clock/plib_clock.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="cmcc" name="f7" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/cmcc/plib_cmcc.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="dmac" name="f6" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/dmac/plib_dmac.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="nvic" name="f5" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/nvic/plib_nvic.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="nvmctrl" name="f1" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/nvmctrl/plib_nvmctrl.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="port" name="f3" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/port/plib_port.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="sercom" name="f2" projectFiles="true">
+              <logicalFolder displayName="i2c_master" name="f2" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/sercom/i2c_master/plib_sercom6_i2c_master.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="usart" name="f1" projectFiles="true">
+                <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/sercom/usart/plib_sercom1_usart.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="tc" name="f8" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/tc/plib_tc0.c</itemPath>
+              <itemPath>../src/config/sam_e54_cult_wm8904/peripheral/tc/plib_tc2.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="stdio" name="f2" projectFiles="true">
+            <itemPath>../src/config/sam_e54_cult_wm8904/stdio/xc32_monitor.c</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="system" name="f6" projectFiles="true">
+            <logicalFolder displayName="cache" name="f3" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/cache/sys_cache.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="dma" name="f4" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/dma/sys_dma.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="int" name="f2" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/int/src/sys_int.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="time" name="f1" projectFiles="true">
+              <itemPath>../src/config/sam_e54_cult_wm8904/system/time/src/sys_time.c</itemPath>
+            </logicalFolder>
+          </logicalFolder>
+          <itemPath>../src/config/sam_e54_cult_wm8904/initialization.c</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/interrupts.c</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/exceptions.c</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/startup_xc32.c</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/libc_syscalls.c</itemPath>
+          <itemPath>../src/config/sam_e54_cult_wm8904/tasks.c</itemPath>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="edge-impulse-sdk" name="edge-impulse-sdk" projectFiles="true">
+        <logicalFolder displayName="anomaly" name="anomaly" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder displayName="classifier" name="classifier" projectFiles="true">
+        </logicalFolder>
+        <logicalFolder displayName="cmake" name="cmake" projectFiles="true">
+          <logicalFolder displayName="zephyr" name="zephyr" projectFiles="true">
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder displayName="CMSIS" name="CMSIS" projectFiles="true">
+          <logicalFolder displayName="Core" name="Core" projectFiles="true">
+            <logicalFolder displayName="Include" name="Include" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="DSP" name="DSP" projectFiles="true">
+            <logicalFolder displayName="Include" name="Include" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder displayName="PrivateInclude" name="PrivateInclude" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder displayName="Source" name="Source" projectFiles="true">
+              <logicalFolder displayName="BasicMathFunctions" name="BasicMathFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_abs_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_add_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_add_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_and_u8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_dot_prod_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_mult_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_negate_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_not_u8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_offset_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_or_u8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_scale_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_shift_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_sub_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/arm_xor_u8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BasicMathFunctions/BasicMathFunctionsF16.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="BayesFunctions" name="BayesFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/BayesFunctions/arm_gaussian_naive_bayes_predict_f32.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="CommonTables" name="CommonTables" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/arm_common_tables.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/arm_common_tables_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/arm_const_structs.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/arm_const_structs_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/arm_mve_tables.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/arm_mve_tables_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/CommonTables/CommonTablesF16.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="ComplexMathFunctions" name="ComplexMathFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_conj_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_dot_prod_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mag_squared_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_cmplx_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ComplexMathFunctions/arm_cmplx_mult_real_q31.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="ControllerFunctions" name="ControllerFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_pid_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_pid_reset_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/ControllerFunctions/arm_sin_cos_q31.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="DistanceFunctions" name="DistanceFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_boolean_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_braycurtis_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_canberra_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_chebyshev_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_cityblock_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_correlation_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_cosine_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_dice_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_euclidean_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_hamming_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_jaccard_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_jensenshannon_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_kulsinski_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_minkowski_distance_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_rogerstanimoto_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_russellrao_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_sokalmichener_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_sokalsneath_distance.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/DistanceFunctions/arm_yule_distance.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="FastMathFunctions" name="FastMathFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_cos_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_cos_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_sin_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_sin_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_sqrt_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_vexp_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FastMathFunctions/arm_vlog_f32.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="FilteringFunctions" name="FilteringFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_32x64_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df1_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_df2T_init_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_biquad_cascade_stereo_df2T_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_opt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_opt_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_opt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_opt_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_partial_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_conv_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_opt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_opt_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_correlate_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_decimate_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_init_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_interpolate_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_lattice_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_init_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_fir_sparse_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_iir_lattice_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_norm_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/FilteringFunctions/arm_lms_q31.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="MatrixFunctions" name="MatrixFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_add_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_cmplx_mult_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_inverse_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_fast_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_mult_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_scale_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_sub_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/MatrixFunctions/arm_mat_trans_q31.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="StatisticsFunctions" name="StatisticsFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_entropy_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_kullback_leibler_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_dot_prod_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_logsumexp_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_max_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_max_no_idx_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_max_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_mean_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_min_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_min_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_power_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_power_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_rms_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_std_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_std_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_var_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/StatisticsFunctions/arm_var_q31.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="SupportFunctions" name="SupportFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_barycenter_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_bitonic_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_bubble_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_copy_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_copy_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_copy_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_copy_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_fill_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_fill_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_fill_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_fill_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_float_to_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_heap_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_insertion_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_merge_sort_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_float.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q15_to_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_float.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q31_to_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_float.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_q7_to_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_quick_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_selection_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_sort_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_sort_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_spline_interp_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SupportFunctions/arm_weighted_sum_f32.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="SVMFunctions" name="SVMFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_linear_predict_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_polynomial_predict_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_rbf_predict_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/SVMFunctions/arm_svm_sigmoid_predict_f32.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="TransformFunctions" name="TransformFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_bitreversal2.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="NN" name="NN" projectFiles="true">
+            <logicalFolder displayName="Include" name="Include" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder displayName="Source" name="Source" projectFiles="true">
+              <logicalFolder displayName="ActivationFunctions" name="ActivationFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions/arm_nn_activations_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions/arm_relu6_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions/arm_relu_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ActivationFunctions/arm_relu_q7.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="BasicMathFunctions" name="BasicMathFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_add_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/BasicMathFunctions/arm_elementwise_mul_s8.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="ConcatenationFunctions" name="ConcatenationFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_w.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_x.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_y.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConcatenationFunctions/arm_concatenation_s8_z.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="ConvolutionFunctions" name="ConvolutionFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_HWC_q7_fast_nonsquare.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1x1_s8_fast.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_1_x_n_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_basic.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q15_fast_nonsquare.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_basic_nonsquare.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_fast_nonsquare.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_HWC_q7_RGB.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_convolve_wrapper_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_3x3_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_s8_opt.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_conv_u8_basic_ver1.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_depthwise_separable_conv_HWC_q7_nonsquare.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_depthwise_conv_s8_core.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_q7_q15_reordered.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_kernel_s8_s16_reordered.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ConvolutionFunctions/arm_nn_mat_mult_s8.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="FullyConnectedFunctions" name="FullyConnectedFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_mat_q7_vec_q15_opt.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q15_opt.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_q7_opt.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/FullyConnectedFunctions/arm_fully_connected_s8.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="NNSupportFunctions" name="NNSupportFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nntables.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_accumulate_q7_to_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_add_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_padded_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_depthwise_conv_nt_t_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mult_nt_t_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_1x_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mat_mul_core_4x_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_mult_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_nn_vec_mat_mult_t_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_no_shift.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_no_shift.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_reordered_with_offset.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/NNSupportFunctions/arm_q7_to_q15_with_offset.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="PoolingFunctions" name="PoolingFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions/arm_avgpool_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions/arm_max_pool_s8_opt.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/PoolingFunctions/arm_pool_q7_HWC.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="ReshapeFunctions" name="ReshapeFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/ReshapeFunctions/arm_reshape_s8.c</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="SoftmaxFunctions" name="SoftmaxFunctions" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_q7.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_s8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_u8.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/NN/Source/SoftmaxFunctions/arm_softmax_with_batch_q7.c</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder displayName="dsp" name="dsp" projectFiles="true">
+          <logicalFolder displayName="dct" name="dct" projectFiles="true">
+            <itemPath>../src/edge-impulse-sdk/dsp/dct/fast-dct-fft.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="kissfft" name="kissfft" projectFiles="true">
+            <itemPath>../src/edge-impulse-sdk/dsp/kissfft/kiss_fft.cpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/kissfft/kiss_fftr.cpp</itemPath>
+          </logicalFolder>
+          <logicalFolder displayName="spectral" name="spectral" projectFiles="true">
+          </logicalFolder>
+          <logicalFolder displayName="speechpy" name="speechpy" projectFiles="true">
+          </logicalFolder>
+          <itemPath>../src/edge-impulse-sdk/dsp/memory.cpp</itemPath>
+        </logicalFolder>
+        <logicalFolder displayName="tensorflow" name="tensorflow" projectFiles="true">
+          <logicalFolder displayName="core" name="core" projectFiles="true">
+            <logicalFolder displayName="public" name="public" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="lite" name="lite" projectFiles="true">
+            <logicalFolder displayName="c" name="c" projectFiles="true">
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/c/common.c</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="core" name="core" projectFiles="true">
+              <logicalFolder displayName="api" name="api" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/error_reporter.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/flatbuffer_conversions.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/op_resolver.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/core/api/tensor_utils.cpp</itemPath>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="kernels" name="kernels" projectFiles="true">
+              <logicalFolder displayName="internal" name="internal" projectFiles="true">
+                <logicalFolder displayName="optimized" name="optimized" projectFiles="true">
+                </logicalFolder>
+                <logicalFolder displayName="reference" name="reference" projectFiles="true">
+                  <logicalFolder displayName="integer_ops" name="integer_ops" projectFiles="true">
+                  </logicalFolder>
+                </logicalFolder>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/internal/quantization_util.cpp</itemPath>
+              </logicalFolder>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/kernels/kernel_util_lite.cpp</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="micro" name="micro" projectFiles="true">
+              <logicalFolder displayName="kernels" name="kernels" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/activations.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/add.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/arg_min_max.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/ceil.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/circular_buffer.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/comparisons.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/concatenation.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/conv.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/depthwise_conv.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/dequantize.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/elementwise.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/ethosu.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/floor.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/fully_connected.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/l2norm.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/logical.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/logistic.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/maximum_minimum.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/mli_slicers.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/mul.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/neg.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/pack.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/pad.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/pooling.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/prelu.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/quantize.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/reduce.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/reshape.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/resize_nearest_neighbor.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/round.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buffers.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/scratch_buf_mgr.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/softmax.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/split.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/strided_slice.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/sub.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/svdf.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/tanh.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/kernels/unpack.cpp</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="memory_planner" name="memory_planner" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/greedy_memory_planner.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_planner/linear_memory_planner.cpp</itemPath>
+              </logicalFolder>
+              <logicalFolder displayName="testing" name="testing" projectFiles="true">
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/testing/test_conv_model.cpp</itemPath>
+                <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/testing/test_utils.cpp</itemPath>
+              </logicalFolder>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/all_ops_resolver.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/memory_helpers.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_allocator.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_error_reporter.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_interpreter.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_optional_debug_tools.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_profiler.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_string.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_time.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/micro_utils.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/recording_micro_allocator.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/recording_simple_memory_allocator.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/simple_memory_allocator.cpp</itemPath>
+              <itemPath>../src/edge-impulse-sdk/tensorflow/lite/micro/test_helpers.cpp</itemPath>
+            </logicalFolder>
+            <logicalFolder displayName="schema" name="schema" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+        <logicalFolder displayName="third_party" name="third_party" projectFiles="true">
+          <logicalFolder displayName="arc_mli_package" name="arc_mli_package" projectFiles="true">
+            <logicalFolder displayName="bin" name="bin" projectFiles="true">
+              <logicalFolder displayName="emsdp_em11d_em9d_dfss" name="emsdp_em11d_em9d_dfss" projectFiles="true">
+                <logicalFolder displayName="release" name="release" projectFiles="true">
+                </logicalFolder>
+              </logicalFolder>
+            </logicalFolder>
+            <logicalFolder displayName="include" name="include" projectFiles="true">
+              <logicalFolder displayName="api" name="api" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="flatbuffers" name="flatbuffers" projectFiles="true">
+            <logicalFolder displayName="include" name="include" projectFiles="true">
+              <logicalFolder displayName="flatbuffers" name="flatbuffers" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="gemmlowp" name="gemmlowp" projectFiles="true">
+            <logicalFolder displayName="fixedpoint" name="fixedpoint" projectFiles="true">
+            </logicalFolder>
+            <logicalFolder displayName="internal" name="internal" projectFiles="true">
+            </logicalFolder>
+          </logicalFolder>
+          <logicalFolder displayName="ruy" name="ruy" projectFiles="true">
+            <logicalFolder displayName="ruy" name="ruy" projectFiles="true">
+              <logicalFolder displayName="profiler" name="profiler" projectFiles="true">
+              </logicalFolder>
+            </logicalFolder>
+          </logicalFolder>
+        </logicalFolder>
+      </logicalFolder>
+      <logicalFolder displayName="tflite-model" name="tflite-model" projectFiles="true">
+        <itemPath>../src/tflite-model/trained_model_compiled.cpp</itemPath>
+      </logicalFolder>
+      <itemPath>../src/main.cpp</itemPath>
+      <itemPath>../src/app.c</itemPath>
+    </logicalFolder>
+    <logicalFolder displayName="Important Files" name="ExternalFiles" projectFiles="false">
+      <itemPath>Makefile</itemPath>
+      <itemPath>../src/config/sam_e54_cult_wm8904/harmony.prj</itemPath>
+      <itemPath>../src/config/sam_e54_cult_wm8904/sam_e54_cult_wm8904.xml</itemPath>
+    </logicalFolder>
+  </logicalFolder>
+  <sourceRootList>
+    <Elem>../src</Elem>
+  </sourceRootList>
+  <projectmakefile>Makefile</projectmakefile>
+  <confs>
+    <conf name="sam_e54_cult_wm8904" type="2">
+      <toolsSet>
+        <developmentServer>localhost</developmentServer>
+        <targetDevice>ATSAME54P20A</targetDevice>
+        <targetHeader/>
+        <targetPluginBoard/>
+        <platformTool>EdbgTool</platformTool>
+        <languageToolchain>XC32</languageToolchain>
+        <languageToolchainVersion>2.50</languageToolchainVersion>
+        <platform>3</platform>
+      </toolsSet>
+      <packs>
+        <pack name="SAME54_DFP" vendor="Microchip" version="3.4.76"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+      </packs>
+      <ScriptingSettings>
+      </ScriptingSettings>
+      <compileType>
+        <linkerTool>
+          <linkerLibItems>
+          </linkerLibItems>
+        </linkerTool>
+        <archiverTool>
+        </archiverTool>
+        <loading>
+          <useAlternateLoadableFile>false</useAlternateLoadableFile>
+          <parseOnProdLoad>true</parseOnProdLoad>
+          <alternateLoadableFile/>
+        </loading>
+        <subordinates>
+        </subordinates>
+      </compileType>
+      <makeCustomizationType>
+        <makeCustomizationPreStepEnabled>false</makeCustomizationPreStepEnabled>
+        <makeUseCleanTarget>false</makeUseCleanTarget>
+        <makeCustomizationPreStep/>
+        <makeCustomizationPostStepEnabled>false</makeCustomizationPostStepEnabled>
+        <makeCustomizationPostStep/>
+        <makeCustomizationPutChecksumInUserID>false</makeCustomizationPutChecksumInUserID>
+        <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
+        <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
+      </makeCustomizationType>
+      <AtmelIceTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="4.000"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0x400000-0x5fffff"/>
+        <property key="programoptions.eraseb4program" value="false"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+      </AtmelIceTool>
+      <C32>
+        <property key="additional-warnings" value="true"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value="../src/app_config/non_gui/16K;../src/edge-impulse-sdk/CMSIS/DSP/Include;../src/edge-impulse-sdk/CMSIS/DSP/PrivateInclude;../src/edge-impulse-sdk/CMSIS/NN/Include;../src/edge-impulse-sdk;../src;../src/config/sam_e54_cult_wm8904;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O2"/>
+        <property key="place-data-into-section" value="true"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="strict-ansi" value="false"/>
+        <property key="support-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32>
+      <C32-AR>
+        <property key="additional-options-chop-files" value="false"/>
+      </C32-AR>
+      <C32-AS>
+        <property key="assembler-symbols" value=""/>
+        <property key="enable-symbols" value="true"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="expand-macros" value="false"/>
+        <property key="extra-include-directories-for-assembler" value=""/>
+        <property key="extra-include-directories-for-preprocessor" value=""/>
+        <property key="false-conditionals" value="false"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="keep-locals" value="false"/>
+        <property key="list-assembly" value="false"/>
+        <property key="list-source" value="false"/>
+        <property key="list-symbols" value="false"/>
+        <property key="oXC32asm-list-to-file" value="false"/>
+        <property key="omit-debug-dirs" value="false"/>
+        <property key="omit-forms" value="false"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="warning-level" value=""/>
+      </C32-AS>
+      <C32-CO>
+        <property key="coverage-enable" value=""/>
+      </C32-CO>
+      <C32-LD>
+        <property key="additional-options-use-response-files" value="true"/>
+        <property key="additional-options-write-sla" value="false"/>
+        <property key="allocate-dinit" value="false"/>
+        <property key="code-dinit" value="false"/>
+        <property key="ebase-addr" value=""/>
+        <property key="enable-check-sections" value="false"/>
+        <property key="exclude-floating-point-library" value="false"/>
+        <property key="exclude-standard-libraries" value="false"/>
+        <property key="extra-lib-directories" value=""/>
+        <property key="fill-flash-options-addr" value=""/>
+        <property key="fill-flash-options-const" value=""/>
+        <property key="fill-flash-options-how" value="0"/>
+        <property key="fill-flash-options-inc-const" value="1"/>
+        <property key="fill-flash-options-increment" value=""/>
+        <property key="fill-flash-options-seq" value=""/>
+        <property key="fill-flash-options-what" value="0"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-cross-reference-file" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="heap-size" value="49152"/>
+        <property key="input-libraries" value=""/>
+        <property key="kseg-length" value=""/>
+        <property key="kseg-origin" value=""/>
+        <property key="linker-symbols" value=""/>
+        <property key="map-file" value="${DISTDIR}/${PROJECTNAME}.${IMAGE_TYPE}.map"/>
+        <property key="no-device-startup-code" value="true"/>
+        <property key="no-startup-files" value="false"/>
+        <property key="oXC32ld-extra-opts" value=""/>
+        <property key="optimization-level" value=""/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="remove-unused-sections" value="true"/>
+        <property key="report-memory-usage" value="false"/>
+        <property key="serial-length" value=""/>
+        <property key="serial-origin" value=""/>
+        <property key="stack-size" value=""/>
+        <property key="symbol-stripping" value=""/>
+        <property key="trace-symbols" value=""/>
+        <property key="warn-section-align" value="false"/>
+      </C32-LD>
+      <C32CPP>
+        <property key="additional-warnings" value="false"/>
+        <property key="addresss-attribute-use" value="false"/>
+        <property key="check-new" value="false"/>
+        <property key="eh-specs" value="true"/>
+        <property key="enable-app-io" value="false"/>
+        <property key="enable-omit-frame-pointer" value="false"/>
+        <property key="enable-symbols" value="true"/>
+        <property key="enable-unroll-loops" value="false"/>
+        <property key="exceptions" value="false"/>
+        <property key="exclude-floating-point" value="false"/>
+        <property key="extra-include-directories" value="../src/edge-impulse-sdk;../src/edge-impulse-sdk/third_party/ruy;../src/edge-impulse-sdk/third_party/gemmlowp;../src/app_config/non_gui/16K;../src/edge-impulse-sdk/third_party/flatbuffers/include;../src;../src/config/sam_e54_cult_wm8904;../src/packs/ATSAME54P20A_DFP;../src/packs/CMSIS/CMSIS/Core/Include;../src/packs/CMSIS/"/>
+        <property key="generate-16-bit-code" value="false"/>
+        <property key="generate-micro-compressed-code" value="false"/>
+        <property key="isolate-each-function" value="true"/>
+        <property key="make-warnings-into-errors" value="false"/>
+        <property key="optimization-level" value="-O2"/>
+        <property key="place-data-into-section" value="false"/>
+        <property key="post-instruction-scheduling" value="default"/>
+        <property key="pre-instruction-scheduling" value="default"/>
+        <property key="preprocessor-macros" value=""/>
+        <property key="rtti" value="true"/>
+        <property key="strict-ansi" value="false"/>
+        <property key="toplevel-reordering" value=""/>
+        <property key="unaligned-access" value=""/>
+        <property key="use-cci" value="false"/>
+        <property key="use-iar" value="false"/>
+        <property key="use-indirect-calls" value="false"/>
+      </C32CPP>
+      <C32Global>
+        <property key="common-include-directories" value=""/>
+        <property key="gp-relative-option" value=""/>
+        <property key="legacy-libc" value="false"/>
+        <property key="mdtcm" value=""/>
+        <property key="mitcm" value=""/>
+        <property key="mstacktcm" value="false"/>
+        <property key="omit-pack-options" value="1"/>
+        <property key="relaxed-math" value="false"/>
+        <property key="save-temps" value="false"/>
+        <property key="wpo-lto" value="false"/>
+        <appendMe value="-DEI_CLASSIFIER_SLICES_PER_MODEL_WINDOW=4 -D__TARGET_CPU_CORTEX_M4 -DEIDSP_USE_CMSIS_DSP=1 -DEI_CLASSIFIER_TFLITE_ENABLE_CMSIS_NN=1 -DEIDSP_QUANTIZE_FILTERBANK=1 -DEIDSP_TRACK_ALLOCATIONS=0 -DEIDSP_PRINT_ALLOCATIONS=0 -mno-newlib-nano"/>
+      </C32Global>
+      <EdbgTool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="arm.use_vtor" value="false"/>
+        <property key="arm.vtor_adr" value="exception_table"/>
+        <property key="communication.activationmode" value="nohv"/>
+        <property key="communication.interface" value="swd"/>
+        <property key="communication.speed" value="2.000"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="firmware.path" value="Press to browse for a specific firmware version"/>
+        <property key="firmware.toolpack" value="Press to select which tool pack to use"/>
+        <property key="firmware.update.action" value="firmware.update.use.latest"/>
+        <property key="freeze.timers" value="false"/>
+        <property key="lastid" value=""/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-fffff"/>
+        <property key="memories.rww" value="true"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="script.has_reset" value="true"/>
+        <property key="script.log_level" value="1"/>
+        <property key="script.reset_delay" value="0"/>
+        <property key="script.show_output" value="false"/>
+        <property key="toolpack.updateoptions" value="toolpack.updateoptions.uselatestoolpack"/>
+        <property key="toolpack.updateoptions.packversion" value="Press to select which tool pack to use"/>
+        <property key="voltagevalue" value=""/>
+      </EdbgTool>
+      <ICD4Tool>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UpdateOptions" value="ToolFirmwareOption.UseLatest"/>
+        <property key="debugoptions.useswbreakpoints" value="false"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.configurationmemory2" value="true"/>
+        <property key="memories.dataflash" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.exclude.configurationmemory" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.instruction.ram.ranges" value="${memories.instruction.ram.ranges}"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.ranges" value="0-fffff"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.ledbrightness" value="5"/>
+        <property key="programoptions.pgcconfig" value="pull down"/>
+        <property key="programoptions.pgcresistor.value" value="4.7"/>
+        <property key="programoptions.pgdconfig" value="pull down"/>
+        <property key="programoptions.pgdresistor.value" value="4.7"/>
+        <property key="programoptions.pgmentry.voltage" value="low"/>
+        <property key="programoptions.pgmspeed" value="Med"/>
+        <property key="programoptions.preservedataflash" value="false"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveeeprom.ranges" value=""/>
+        <property key="programoptions.preserveprogram.ranges" value=""/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.programcalmem" value="false"/>
+        <property key="programoptions.programuserotp" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VDDFirst"/>
+        <property key="voltagevalue" value="3.25"/>
+      </ICD4Tool>
+      <PICkit3PlatformTool>
+        <property key="ADC 1" value="true"/>
+        <property key="AutoSelectMemRanges" value="auto"/>
+        <property key="CHANGE NOTICE" value="true"/>
+        <property key="COMPARATOR" value="true"/>
+        <property key="CTMU" value="true"/>
+        <property key="DMA" value="true"/>
+        <property key="Freeze All Other Peripherals" value="true"/>
+        <property key="I2C1" value="true"/>
+        <property key="I2C2" value="true"/>
+        <property key="INPUT CAPTURE 1" value="true"/>
+        <property key="INPUT CAPTURE 2" value="true"/>
+        <property key="INPUT CAPTURE 3" value="true"/>
+        <property key="INPUT CAPTURE 4" value="true"/>
+        <property key="INPUT CAPTURE 5" value="true"/>
+        <property key="INTERRUPT CONTROL" value="true"/>
+        <property key="OUTPUT COMPARE 1" value="true"/>
+        <property key="OUTPUT COMPARE 2" value="true"/>
+        <property key="OUTPUT COMPARE 3" value="true"/>
+        <property key="OUTPUT COMPARE 4" value="true"/>
+        <property key="OUTPUT COMPARE 5" value="true"/>
+        <property key="PARALLEL MASTER/SLAVE PORT" value="true"/>
+        <property key="REAL TIME CLOCK" value="true"/>
+        <property key="SPI/I2S 1" value="true"/>
+        <property key="SPI/I2S 2" value="true"/>
+        <property key="SecureSegment.SegmentProgramming" value="FullChipProgramming"/>
+        <property key="TIMER1" value="true"/>
+        <property key="TIMER2" value="true"/>
+        <property key="TIMER3" value="true"/>
+        <property key="TIMER4" value="true"/>
+        <property key="TIMER5" value="true"/>
+        <property key="ToolFirmwareFilePath" value="Press to browse for a specific firmware version"/>
+        <property key="ToolFirmwareOption.UseLatestFirmware" value="true"/>
+        <property key="UART1" value="true"/>
+        <property key="UART2" value="true"/>
+        <property key="hwtoolclock.frcindebug" value="false"/>
+        <property key="memories.aux" value="false"/>
+        <property key="memories.bootflash" value="true"/>
+        <property key="memories.configurationmemory" value="true"/>
+        <property key="memories.eeprom" value="true"/>
+        <property key="memories.flashdata" value="true"/>
+        <property key="memories.id" value="true"/>
+        <property key="memories.programmemory" value="true"/>
+        <property key="memories.programmemory.end" value="0x1d003fff"/>
+        <property key="memories.programmemory.start" value="0x1d000000"/>
+        <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmertogo.imagename" value=""/>
+        <property key="programoptions.donoteraseauxmem" value="false"/>
+        <property key="programoptions.eraseb4program" value="true"/>
+        <property key="programoptions.pgmspeed" value="2"/>
+        <property key="programoptions.preserveeeprom" value="false"/>
+        <property key="programoptions.preserveprogramrange" value="false"/>
+        <property key="programoptions.preserveprogramrange.end" value="0x1d003fff"/>
+        <property key="programoptions.preserveprogramrange.start" value="0x1d000000"/>
+        <property key="programoptions.preserveuserid" value="false"/>
+        <property key="programoptions.testmodeentrymethod" value="VPPFirst"/>
+        <property key="programoptions.usehighvoltageonmclr" value="false"/>
+        <property key="programoptions.uselvpprogramming" value="false"/>
+        <property key="voltagevalue" value="3.25"/>
+      </PICkit3PlatformTool>
+      <Simulator>
+        <property key="codecoverage.enabled" value="Disable"/>
+        <property key="codecoverage.enableoutputtofile" value="false"/>
+        <property key="codecoverage.outputfile" value=""/>
+        <property key="codecoverage.report" value=""/>
+        <property key="oscillator.auxfrequency" value="120"/>
+        <property key="oscillator.auxfrequencyunit" value="Mega"/>
+        <property key="oscillator.frequency" value="1"/>
+        <property key="oscillator.frequencyunit" value="Mega"/>
+        <property key="oscillator.rcfrequency" value="250"/>
+        <property key="oscillator.rcfrequencyunit" value="Kilo"/>
+        <property key="periphADC1.altscl" value="false"/>
+        <property key="periphADC1.minTacq" value=""/>
+        <property key="periphADC1.tacqunits" value="microseconds"/>
+        <property key="periphADC2.altscl" value="false"/>
+        <property key="periphADC2.minTacq" value=""/>
+        <property key="periphADC2.tacqunits" value="microseconds"/>
+        <property key="periphComp1.gte" value="gt"/>
+        <property key="periphComp2.gte" value="gt"/>
+        <property key="periphComp3.gte" value="gt"/>
+        <property key="periphComp4.gte" value="gt"/>
+        <property key="periphComp5.gte" value="gt"/>
+        <property key="periphComp6.gte" value="gt"/>
+        <property key="reset.scl" value="false"/>
+        <property key="reset.type" value="MCLR"/>
+        <property key="tracecontrol.include.timestamp" value="summarydataenabled"/>
+        <property key="tracecontrol.select" value="0"/>
+        <property key="tracecontrol.stallontracebufferfull" value="false"/>
+        <property key="tracecontrol.timestamp" value="0"/>
+        <property key="tracecontrol.tracebufmax" value="546000"/>
+        <property key="tracecontrol.tracefile" value="defmplabxtrace.log"/>
+        <property key="tracecontrol.traceresetonrun" value="false"/>
+        <property key="uart0io.output" value="window"/>
+        <property key="uart0io.outputfile" value=""/>
+        <property key="uart0io.uartioenabled" value="false"/>
+        <property key="uart10io.output" value="window"/>
+        <property key="uart10io.outputfile" value=""/>
+        <property key="uart10io.uartioenabled" value="false"/>
+        <property key="uart1io.output" value="window"/>
+        <property key="uart1io.outputfile" value=""/>
+        <property key="uart1io.uartioenabled" value="false"/>
+        <property key="uart2io.output" value="window"/>
+        <property key="uart2io.outputfile" value=""/>
+        <property key="uart2io.uartioenabled" value="false"/>
+        <property key="uart3io.output" value="window"/>
+        <property key="uart3io.outputfile" value=""/>
+        <property key="uart3io.uartioenabled" value="false"/>
+        <property key="uart4io.output" value="window"/>
+        <property key="uart4io.outputfile" value=""/>
+        <property key="uart4io.uartioenabled" value="false"/>
+        <property key="uart5io.output" value="window"/>
+        <property key="uart5io.outputfile" value=""/>
+        <property key="uart5io.uartioenabled" value="false"/>
+        <property key="uart6io.output" value="window"/>
+        <property key="uart6io.outputfile" value=""/>
+        <property key="uart6io.uartioenabled" value="false"/>
+        <property key="uart7io.output" value="window"/>
+        <property key="uart7io.outputfile" value=""/>
+        <property key="uart7io.uartioenabled" value="false"/>
+        <property key="uart8io.output" value="window"/>
+        <property key="uart8io.outputfile" value=""/>
+        <property key="uart8io.uartioenabled" value="false"/>
+        <property key="uart9io.output" value="window"/>
+        <property key="uart9io.outputfile" value=""/>
+        <property key="uart9io.uartioenabled" value="false"/>
+        <property key="warningmessagebreakoptions.W0001_CORE_BITREV_MODULO_EN" value="report"/>
+        <property key="warningmessagebreakoptions.W0002_CORE_SECURE_MEMORYACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0003_CORE_SW_RESET" value="report"/>
+        <property key="warningmessagebreakoptions.W0004_CORE_WDT_RESET" value="report"/>
+        <property key="warningmessagebreakoptions.W0005_CORE_IOPUW_RESET" value="report"/>
+        <property key="warningmessagebreakoptions.W0006_CORE_CODE_GUARD_PFC_RESET" value="report"/>
+        <property key="warningmessagebreakoptions.W0007_CORE_DO_LOOP_STACK_UNDERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0008_CORE_DO_LOOP_STACK_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0009_CORE_NESTED_DO_LOOP_RANGE" value="report"/>
+        <property key="warningmessagebreakoptions.W0010_CORE_SIM32_ODD_WORDACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0011_CORE_SIM32_UNIMPLEMENTED_RAMACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0012_CORE_STACK_OVERFLOW_RESET" value="report"/>
+        <property key="warningmessagebreakoptions.W0013_CORE_STACK_UNDERFLOW_RESET" value="report"/>
+        <property key="warningmessagebreakoptions.W0014_CORE_INVALID_OPCODE" value="report"/>
+        <property key="warningmessagebreakoptions.W0015_CORE_INVALID_ALT_WREG_SET" value="report"/>
+        <property key="warningmessagebreakoptions.W0016_CORE_STACK_ERROR" value="report"/>
+        <property key="warningmessagebreakoptions.W0017_CORE_ODD_RAMWORDACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0018_CORE_UNIMPLEMENTED_RAMACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0019_CORE_UNIMPLEMENTED_PROMACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0020_CORE_ACCESS_NOTIN_X_SPACE" value="report"/>
+        <property key="warningmessagebreakoptions.W0021_CORE_ACCESS_NOTIN_Y_SPACE" value="report"/>
+        <property key="warningmessagebreakoptions.W0022_CORE_XMODEND_LESS_XMODSRT" value="report"/>
+        <property key="warningmessagebreakoptions.W0023_CORE_YMODEND_LESS_YMODSRT" value="report"/>
+        <property key="warningmessagebreakoptions.W0024_CORE_BITREV_MOD_IS_ZERO" value="report"/>
+        <property key="warningmessagebreakoptions.W0025_CORE_HARD_TRAP" value="report"/>
+        <property key="warningmessagebreakoptions.W0026_CORE_UNIMPLEMENTED_MEMORYACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0027_CORE_UNIMPLEMENTED_EDSACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0028_TBLRD_WORM_CONFIG_MEMORY" value="report"/>
+        <property key="warningmessagebreakoptions.W0029_TBLRD_DEVICE_ID" value="report"/>
+        <property key="warningmessagebreakoptions.W0030_CORE_UNIMPLEMENTED_MEMORY_ACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0031_BSLIM_INSUFFICIENT_BOOT_SEGMENT" value="report"/>
+        <property key="warningmessagebreakoptions.W0032_BSLIM_LIMITS_EXCEEDS_PROG_MEMORY" value="report"/>
+        <property key="warningmessagebreakoptions.W0033_CORE_UNPREDICTABLE_OPCODE" value="report"/>
+        <property key="warningmessagebreakoptions.W0034_CORE_UNALIGNED_MEMORY_ACCESS" value="report"/>
+        <property key="warningmessagebreakoptions.W0040_FPU_DIFF_CP10_CP11" value="report"/>
+        <property key="warningmessagebreakoptions.W0041_FPU_ACCESS_DENIED" value="report"/>
+        <property key="warningmessagebreakoptions.W0042_FPU_PRIVILEGED_ACCESS_ONLY" value="report"/>
+        <property key="warningmessagebreakoptions.W0043_FPU_CP_RESERVED_VALUE" value="report"/>
+        <property key="warningmessagebreakoptions.W0044_FPU_OUT_OF_RANGE" value="report"/>
+        <property key="warningmessagebreakoptions.W0051_INSTRUCTION_DIV_NOT_ENOUGH_REPEAT" value="report"/>
+        <property key="warningmessagebreakoptions.W0052_INSTRUCTION_DIV_TOO_MANY_REPEAT" value="report"/>
+        <property key="warningmessagebreakoptions.W0053_INVALID_INTCON_VS_FIELD_VALUE" value="report"/>
+        <property key="warningmessagebreakoptions.W0101_SIM_UPDATE_FAILED" value="report"/>
+        <property key="warningmessagebreakoptions.W0102_SIM_PERIPH_MISSING" value="report"/>
+        <property key="warningmessagebreakoptions.W0103_SIM_PERIPH_FAILED" value="report"/>
+        <property key="warningmessagebreakoptions.W0104_SIM_FAILED_TO_INIT_TOOL" value="report"/>
+        <property key="warningmessagebreakoptions.W0105_SIM_INVALID_FIELD" value="report"/>
+        <property key="warningmessagebreakoptions.W0106_SIM_PERIPH_PARTIAL_SUPPORT" value="report"/>
+        <property key="warningmessagebreakoptions.W0107_SIM_NOT_SUPPORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0108_SIM_RESERVED_SETTING" value="report"/>
+        <property key="warningmessagebreakoptions.W0109_SIM_PERIPHERAL_IN_DEVELOPMENT" value="report"/>
+        <property key="warningmessagebreakoptions.W0110_SIM_UNEXPECTED_EVENT" value="report"/>
+        <property key="warningmessagebreakoptions.W0111_SIM_UNSUPPORTED_SELECTION" value="report"/>
+        <property key="warningmessagebreakoptions.W0112_SIM_INVALID_OPERATION" value="report"/>
+        <property key="warningmessagebreakoptions.W0113_SIM_WRITE_TO_PROTECTED_SFR" value="report"/>
+        <property key="warningmessagebreakoptions.W0114_SIM_INVALID_KEY" value="report"/>
+        <property key="warningmessagebreakoptions.W0115_SIM_FAILED_TO_PARSE_DEVICE_FILE" value="report"/>
+        <property key="warningmessagebreakoptions.W0116_SIM_STACK_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0117_SIM_STACK_UNDERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0201_ADC_NO_STIMULUS_FILE" value="report"/>
+        <property key="warningmessagebreakoptions.W0202_ADC_GO_DONE_BIT" value="report"/>
+        <property key="warningmessagebreakoptions.W0203_ADC_MINIMUM_2_TAD" value="report"/>
+        <property key="warningmessagebreakoptions.W0204_ADC_TAD_TOO_SMALL" value="report"/>
+        <property key="warningmessagebreakoptions.W0205_ADC_UNEXPECTED_TRANSITION" value="report"/>
+        <property key="warningmessagebreakoptions.W0206_ADC_SAMP_TIME_TOO_SHORT" value="report"/>
+        <property key="warningmessagebreakoptions.W0207_ADC_NO_PINS_SCANNED" value="report"/>
+        <property key="warningmessagebreakoptions.W0208_ADC_UNSUPPORTED_CLOCK_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W0209_ADC_ANALOG_CHANNEL_DIGITAL" value="report"/>
+        <property key="warningmessagebreakoptions.W0210_ADC_ANALOG_CHANNEL_OUTPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0211_ADC_PIN_INVALID_CHANNEL" value="report"/>
+        <property key="warningmessagebreakoptions.W0212_ADC_BAND_GAP_NOT_SUPPORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0213_ADC_RESERVED_SSRC" value="report"/>
+        <property key="warningmessagebreakoptions.W0214_ADC_POSITIVE_INPUT_DIGITAL" value="report"/>
+        <property key="warningmessagebreakoptions.W0215_ADC_POSITIVE_INPUT_OUTPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0216_ADC_NEGATIVE_INPUT_DIGITAL" value="report"/>
+        <property key="warningmessagebreakoptions.W0217_ADC_NEGATIVE_INPUT_OUTPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0218_ADC_REFERENCE_HIGH_DIGITAL" value="report"/>
+        <property key="warningmessagebreakoptions.W0219_ADC_REFERENCE_HIGH_OUTPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0220_ADC_REFERENCE_LOW_DIGITAL" value="report"/>
+        <property key="warningmessagebreakoptions.W0221_ADC_REFERENCE_LOW_OUTPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0222_ADC_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0223_ADC_UNDERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0224_ADC_CTMU_NOT_SUPPORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0225_ADC_INVALID_CH0S" value="report"/>
+        <property key="warningmessagebreakoptions.W0226_ADC_VBAT_NOT_SUPPORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0227_ADC_INVALID_ADCS" value="report"/>
+        <property key="warningmessagebreakoptions.W0228_ADC_INVALID_ADCS" value="report"/>
+        <property key="warningmessagebreakoptions.W0229_ADC_INVALID_ADCS" value="report"/>
+        <property key="warningmessagebreakoptions.W0230_ADC_TRIGSEL_NOT_SUPPORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0231_ADC_NOT_WARMED" value="report"/>
+        <property key="warningmessagebreakoptions.W0232_ADC_CALIBRATION_ABORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0233_ADC_CORE_POWERED_EARLY" value="report"/>
+        <property key="warningmessagebreakoptions.W0234_ADC_ALREADY_CALIBRATING" value="report"/>
+        <property key="warningmessagebreakoptions.W0235_ADC_CAL_TYPE_CHANGED" value="report"/>
+        <property key="warningmessagebreakoptions.W0236_ADC_CAL_INVALIDATED" value="report"/>
+        <property key="warningmessagebreakoptions.W0237_ADC_UNKNOWN_DATASHEET" value="report"/>
+        <property key="warningmessagebreakoptions.W0238_ADC_INVALID_SFR_FIELD_VALUE" value="report"/>
+        <property key="warningmessagebreakoptions.W0239_ADC_UNSUPPORTED_INPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0240_ADC_NOT_CALIBRATED" value="report"/>
+        <property key="warningmessagebreakoptions.W0241_ADC_FRACTIONAL_NOT_ALLOWED" value="report"/>
+        <property key="warningmessagebreakoptions.W0242_ADC_BG_INT_BEFORE_PWR" value="report"/>
+        <property key="warningmessagebreakoptions.W0243_ADC_INVALID_TAD" value="report"/>
+        <property key="warningmessagebreakoptions.W0244_ADC_CONVERSION_ABORTED" value="report"/>
+        <property key="warningmessagebreakoptions.W0400_PWM_PWM_FASTER_THAN_FOSC" value="report"/>
+        <property key="warningmessagebreakoptions.W0600_WDT_2ND_WDT_MR_WRITE" value="report"/>
+        <property key="warningmessagebreakoptions.W0601_WDT_EXPIRED" value="report"/>
+        <property key="warningmessagebreakoptions.W0601_WDT_RESET_OUTSIDE_WINDOW" value="report"/>
+        <property key="warningmessagebreakoptions.W0700_CLC_GENERAL_WARNING" value="report"/>
+        <property key="warningmessagebreakoptions.W0701_CLC_CLCOUT_AS_INPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W0702_CLC_CIRCULAR_LOOP" value="report"/>
+        <property key="warningmessagebreakoptions.W10001_RESERVED_IRQ_HANDLER_INVOKED" value="report"/>
+        <property key="warningmessagebreakoptions.W10002_UNSUPPORTED_CLK_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W10101_UNSUPPORTED_CHANNEL_MODE" value="report"/>
+        <property key="warningmessagebreakoptions.W10102_UNSUPPORTED_CLK_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W10103_UNSUPPORTED_RECEIVER_FILTER" value="report"/>
+        <property key="warningmessagebreakoptions.W10301_NO_PORT_PINS_FOUND" value="report"/>
+        <property key="warningmessagebreakoptions.W1201_DATAFLASH_MEM_OUTSIDE_RANGE" value="report"/>
+        <property key="warningmessagebreakoptions.W1202_DATAFLASH_ERASE_WHILE_LOCKED" value="report"/>
+        <property key="warningmessagebreakoptions.W1203_DATAFLASH_WRITE_WHILE_LOCKED" value="report"/>
+        <property key="warningmessagebreakoptions.W1401_DMA_PERIPH_NOT_AVAIL" value="report"/>
+        <property key="warningmessagebreakoptions.W1402_DMA_INVALID_IRQ" value="report"/>
+        <property key="warningmessagebreakoptions.W1403_DMA_INVALID_SFR" value="report"/>
+        <property key="warningmessagebreakoptions.W1404_DMA_INVALID_DMA_ADDR" value="report"/>
+        <property key="warningmessagebreakoptions.W1405_DMA_IRQ_DIR_MISMATCH" value="report"/>
+        <property key="warningmessagebreakoptions.W1600_PPS_INVALID_MAP" value="report"/>
+        <property key="warningmessagebreakoptions.W1601_PPS_INVALID_PIN_DESCRIPTION" value="report"/>
+        <property key="warningmessagebreakoptions.W1800_PWM_TIMER_SELECTION_NOT_AVIALABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W1801_PWM_TIMER_SELECTION_BAD_CLOCK_INPUT" value="report"/>
+        <property key="warningmessagebreakoptions.W1802_PWM_TIMER_MISSING_PERSCALER_INFO" value="report"/>
+        <property key="warningmessagebreakoptions.W2001_INPUTCAPTURE_TMR3_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W2002_INPUTCAPTURE_CAPTURE_EMPTY" value="report"/>
+        <property key="warningmessagebreakoptions.W2003_INPUTCAPTURE_SYNCSEL_NOT_AVIALABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W2004_INPUTCAPTURE_BAD_SYNC_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W2501_OUTPUTCOMPARE_SYNCSEL_NOT_AVIALABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W2502_OUTPUTCOMPARE_BAD_SYNC_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W2503_OUTPUTCOMPARE_BAD_TRIGGER_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W2700_MPU_ILLEGAL_DREGION" value="report"/>
+        <property key="warningmessagebreakoptions.W2701_MPU_INVALID_REGION" value="report"/>
+        <property key="warningmessagebreakoptions.W3000_LPM_READ_PROTECTION_SECTION" value="report"/>
+        <property key="warningmessagebreakoptions.W3010_SPM_WRITE_PROTECTION_SECTION" value="report"/>
+        <property key="warningmessagebreakoptions.W6001_RTT_FORBIDDEN_RTPRES" value="report"/>
+        <property key="warningmessagebreakoptions.W6002_RTT_BAD_WRITING_ALMV" value="report"/>
+        <property key="warningmessagebreakoptions.W6003_RTT_BAD_WRITING_RTPRES" value="report"/>
+        <property key="warningmessagebreakoptions.W7001_SMT_CLK_SELECTION_NOT_SUPPORT" value="report"/>
+        <property key="warningmessagebreakoptions.W7002_SMT_SIG_SELECTION_NOT_SUPPORT" value="report"/>
+        <property key="warningmessagebreakoptions.W7003_SMT_WIN_SELECTION_NOT_SUPPORT" value="report"/>
+        <property key="warningmessagebreakoptions.W8001_OSC_INVALID_CLOCK_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W9001_TMR_GATE_AND_EXTCLOCK_ENABLED" value="report"/>
+        <property key="warningmessagebreakoptions.W9002_TMR_NO_PIN_AVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9003_TMR_INVALID_CLOCK_SOURCE" value="report"/>
+        <property key="warningmessagebreakoptions.W9201_UART_TX_OVERFLOW" value="report"/>
+        <property key="warningmessagebreakoptions.W9202_UART_TX_CAPTUREFILE" value="report"/>
+        <property key="warningmessagebreakoptions.W9203_UART_TX_INVALIDINTERRUPTMODE" value="report"/>
+        <property key="warningmessagebreakoptions.W9204_UART_RX_EMPTY_QUEUE" value="report"/>
+        <property key="warningmessagebreakoptions.W9205_UART_TX_BADFILE" value="report"/>
+        <property key="warningmessagebreakoptions.W9206_UART_RESERVED_MODE" value="report"/>
+        <property key="warningmessagebreakoptions.W9207_UART_UNABLETOCLOSE_FILE" value="report"/>
+        <property key="warningmessagebreakoptions.W9401_CVREF_INVALIDSOURCESELECTION" value="report"/>
+        <property key="warningmessagebreakoptions.W9402_CVREF_INPUT_OUTPUTPINCONFLICT" value="report"/>
+        <property key="warningmessagebreakoptions.W9601_COMP_FVR_SOURCE_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9602_COMP_DAC_SOURCE_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9603_COMP_CVREF_SOURCE_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9604_COMP_SLOPE_SOURCE_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9605_COMP_PRG_SOURCE_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9607_COMP_DGTL_FLTR_OPTION_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9609_COMP_DGTL_FLTR_CLK_UNAVAILABLE" value="report"/>
+        <property key="warningmessagebreakoptions.W9801_FVR_INVALID_MODE_SELECTION" value="report"/>
+        <property key="warningmessagebreakoptions.W9801_SCL_BAD_SUBTYPE_INDICATION" value="report"/>
+        <property key="warningmessagebreakoptions.W9802_SCL_FILE_NOT_FOUND" value="report"/>
+        <property key="warningmessagebreakoptions.W9803_SCL_FAILED_TO_READ_FILE" value="report"/>
+        <property key="warningmessagebreakoptions.W9804_SCL_UNRECOGNIZED_LABEL" value="report"/>
+        <property key="warningmessagebreakoptions.W9805_SCL_UNRECOGNIZED_VAR" value="report"/>
+        <property key="warningmessagebreakoptions.W9901_RTSP_INVALID_OPERATION_SELECTION" value="report"/>
+        <property key="warningmessagebreakoptions.W9902_RTSP_FLASH_PROGRAM_WRITE_PROTECTED" value="report"/>
+        <property key="warningmessagebreakoptions.displaywarningmessagesoption" value=""/>
+        <property key="warningmessagebreakoptions.warningmessages" value="holdstate"/>
+      </Simulator>
+    </conf>
+  </confs>
+</configurationDescriptor>
