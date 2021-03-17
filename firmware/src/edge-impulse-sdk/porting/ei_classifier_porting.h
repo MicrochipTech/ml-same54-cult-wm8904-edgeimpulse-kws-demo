@@ -25,7 +25,7 @@
 
 #include <stdint.h>
 #include <stdlib.h>
-#include "tensorflow/lite/micro/debug_log.h"
+#include "edge-impulse-sdk/tensorflow/lite/micro/debug_log.h"
 
 #if defined(__cplusplus) && EI_C_LINKAGE == 1
 extern "C" {
@@ -66,6 +66,12 @@ uint64_t ei_read_timer_ms();
  */
 uint64_t ei_read_timer_us();
 
+/**
+ * Set Serial baudrate
+ */
+void ei_serial_set_baudrate(int baudrate);
+
+void ei_printf(const char *format, ...);
 /**
  * Print wrapper around printf()
  * This is used internally to print debug information.

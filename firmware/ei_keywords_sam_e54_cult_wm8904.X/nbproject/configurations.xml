@@ -169,6 +169,7 @@
               <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_mve_tables.h</itemPath>
               <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_mve_tables_f16.h</itemPath>
               <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_vec_math.h</itemPath>
+              <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Include/arm_sorting.h</itemPath>
             </logicalFolder>
             <logicalFolder displayName="PrivateInclude" name="PrivateInclude" projectFiles="true">
               <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/PrivateInclude/arm_sorting.h</itemPath>
@@ -249,6 +250,7 @@
             <itemPath>../src/edge-impulse-sdk/dsp/spectral/filters.hpp</itemPath>
             <itemPath>../src/edge-impulse-sdk/dsp/spectral/processing.hpp</itemPath>
             <itemPath>../src/edge-impulse-sdk/dsp/spectral/spectral.hpp</itemPath>
+            <itemPath>../src/edge-impulse-sdk/dsp/spectral/fir_filter.hpp</itemPath>
           </logicalFolder>
           <logicalFolder displayName="speechpy" name="speechpy" projectFiles="true">
             <itemPath>../src/edge-impulse-sdk/dsp/speechpy/feature.hpp</itemPath>
@@ -1300,8 +1302,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAME54_DFP" vendor="Microchip" version="3.4.76"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="SAME54_DFP" vendor="Microchip" version="3.4.76"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1514,6 +1516,7 @@
         <property key="memories.programmemory.ranges" value="0-fffff"/>
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath" value="C:/Users/toemo/dev/tmp/ml-same54-cult-wm8904-edgeimpulse-kws-demo/ei_keywords_sam_e54_cult_wm8904.X/debug/sam_e54_cult_wm8904/ei_keywords_sam_e54_cult_wm8904_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>

@@ -22,10 +22,14 @@
 #ifndef _EI_CLASSIFIER_MODEL_METADATA_H_
 #define _EI_CLASSIFIER_MODEL_METADATA_H_
 
+#include <stdint.h>
+
 #define EI_CLASSIFIER_NONE                       255
 #define EI_CLASSIFIER_UTENSOR                    1
 #define EI_CLASSIFIER_TFLITE                     2
 #define EI_CLASSIFIER_CUBEAI                     3
+#define EI_CLASSIFIER_TFLITE_FULL                4
+#define EI_CLASSIFIER_TENSAIFLOW                 5
 
 #define EI_CLASSIFIER_SENSOR_UNKNOWN             -1
 #define EI_CLASSIFIER_SENSOR_MICROPHONE          1
@@ -36,6 +40,10 @@
 #define EI_CLASSIFIER_DATATYPE_FLOAT32           1
 #define EI_CLASSIFIER_DATATYPE_INT8              9
 
+#define EI_CLASSIFIER_PROJECT_ID                 15582
+#define EI_CLASSIFIER_PROJECT_OWNER              "Thomas Garcia"
+#define EI_CLASSIFIER_PROJECT_NAME               "keywordspotter_demo"
+#define EI_CLASSIFIER_PROJECT_DEPLOY_VERSION     12
 #define EI_CLASSIFIER_NN_INPUT_FRAME_SIZE        1280
 #define EI_CLASSIFIER_RAW_SAMPLE_COUNT           16000
 #define EI_CLASSIFIER_RAW_SAMPLES_PER_FRAME      1
@@ -47,6 +55,7 @@
 #define EI_CLASSIFIER_LABEL_COUNT                4
 #define EI_CLASSIFIER_HAS_ANOMALY                0
 #define EI_CLASSIFIER_FREQUENCY                  16000
+#define EI_CLASSIFIER_USE_QUANTIZED_DSP_BLOCK    0
 
 #define EI_CLASSIFIER_TFLITE_ARENA_SIZE          13043
 #define EI_CLASSIFIER_TFLITE_INPUT_DATATYPE      EI_CLASSIFIER_DATATYPE_INT8
@@ -54,23 +63,33 @@
 #define EI_CLASSIFIER_TFLITE_INPUT_SCALE         0.053761981427669525
 #define EI_CLASSIFIER_TFLITE_INPUT_ZEROPOINT     1
 #define EI_CLASSIFIER_TFLITE_OUTPUT_DATATYPE     EI_CLASSIFIER_DATATYPE_INT8
-#define EI_CLASSIFIER_TFLITE_OUTPUT_QUANTIZED     1
+#define EI_CLASSIFIER_TFLITE_OUTPUT_QUANTIZED    1
 #define EI_CLASSIFIER_TFLITE_OUTPUT_SCALE        0.00390625
 #define EI_CLASSIFIER_TFLITE_OUTPUT_ZEROPOINT    -128
 #define EI_CLASSIFIER_INFERENCING_ENGINE         EI_CLASSIFIER_TFLITE
 #define EI_CLASSIFIER_COMPILED                   1
-#define EI_CLASSIFIER_SENSOR                     EI_CLASSIFIER_SENSOR_MICROPHONE
 #define EI_CLASSIFIER_HAS_TFLITE_OPS_RESOLVER    1
 
 #define EI_CLASSIFIER_SENSOR                     EI_CLASSIFIER_SENSOR_MICROPHONE
+#define EI_CLASSIFIER_SLICE_SIZE                 (EI_CLASSIFIER_RAW_SAMPLE_COUNT / EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW)
 #ifndef EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW
 #define EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW    4
 #endif // EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW
-#define EI_CLASSIFIER_SLICE_SIZE                 (EI_CLASSIFIER_RAW_SAMPLE_COUNT / EI_CLASSIFIER_SLICES_PER_MODEL_WINDOW)
+
+#if EI_CLASSIFIER_INFERENCING_ENGINE == EI_CLASSIFIER_TFLITE && EI_CLASSIFIER_USE_FULL_TFLITE == 1
+#undef EI_CLASSIFIER_INFERENCING_ENGINE
+#undef EI_CLASSIFIER_HAS_TFLITE_OPS_RESOLVER
+#define EI_CLASSIFIER_INFERENCING_ENGINE          EI_CLASSIFIER_TFLITE_FULL
+#define EI_CLASSIFIER_HAS_TFLITE_OPS_RESOLVER     0
+#if EI_CLASSIFIER_COMPILED == 1
+#error "Cannot use full TensorFlow Lite with EON"
+#endif
+#endif // EI_CLASSIFIER_INFERENCING_ENGINE == EI_CLASSIFIER_TFLITE && EI_CLASSIFIER_USE_FULL_TFLITE == 1
 
 const char* ei_classifier_inferencing_categories[] = { "no", "noise", "unknown", "yes" };
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     float scale_axes;
     bool average;
@@ -83,11 +102,13 @@ typedef struct {
 } ei_dsp_config_flatten_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     const char * channels;
 } ei_dsp_config_image_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     int num_cepstral;
     float frame_length;
@@ -102,6 +123,7 @@ typedef struct {
 } ei_dsp_config_mfcc_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     float frame_length;
     float frame_stride;
@@ -113,11 +135,13 @@ typedef struct {
 } ei_dsp_config_mfe_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     float scale_axes;
 } ei_dsp_config_raw_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     float scale_axes;
     const char * filter_type;
@@ -130,6 +154,7 @@ typedef struct {
 } ei_dsp_config_spectral_analysis_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     float frame_length;
     float frame_stride;
@@ -138,6 +163,7 @@ typedef struct {
 } ei_dsp_config_spectrogram_t;
 
 typedef struct {
+    uint16_t implementation_version;
     int axes;
     float frame_length;
     float frame_stride;
@@ -149,6 +175,7 @@ typedef struct {
 } ei_dsp_config_audio_syntiant_t;
 
 ei_dsp_config_mfcc_t ei_dsp_config_3 = {
+    2,
     1,
     20,
     0.03000f,

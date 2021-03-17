@@ -18,7 +18,7 @@
 * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 * SOFTWARE.
 */
-// Generated on: 29.01.2021 00:57:39
+// Generated on: 17.03.2021 15:16:50
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -26,6 +26,16 @@
 #include "edge-impulse-sdk/tensorflow/lite/c/builtin_op_data.h"
 #include "edge-impulse-sdk/tensorflow/lite/c/common.h"
 #include "edge-impulse-sdk/tensorflow/lite/micro/kernels/micro_ops.h"
+
+#if EI_CLASSIFIER_PRINT_STATE
+#if defined(__cplusplus) && EI_C_LINKAGE == 1
+extern "C" {
+    extern void ei_printf(const char *format, ...);
+}
+#else
+extern void ei_printf(const char *format, ...);
+#endif
+#endif
 
 #if defined __GNUC__
 #define ALIGN(X) __attribute__((aligned(X)))
@@ -588,6 +598,66 @@ TfLiteTensor* trained_model_output(int index) {
 TfLiteStatus trained_model_invoke() {
   for(size_t i = 0; i < 16; ++i) {
     TfLiteStatus status = registrations[nodeData[i].used_op_index].invoke(&ctx, &tflNodes[i]);
+
+#if EI_CLASSIFIER_PRINT_STATE
+    ei_printf("layer %lu\n", i);
+    ei_printf("    inputs:\n");
+    for (size_t ix = 0; ix < tflNodes[i].inputs->size; ix++) {
+      auto d = tensorData[tflNodes[i].inputs->data[ix]];
+
+      size_t data_ptr = (size_t)d.data;
+
+      if (d.allocation_type == kTfLiteArenaRw) {
+        data_ptr = (size_t)tensor_arena + data_ptr;
+      }
+
+      if (d.type == TfLiteType::kTfLiteInt8) {
+        int8_t* data = (int8_t*)data_ptr;
+        ei_printf("        %lu (%zu bytes, ptr=%p, alloc_type=%d, type=%d): ", ix, d.bytes, data, (int)d.allocation_type, (int)d.type);
+        for (size_t jx = 0; jx < d.bytes; jx++) {
+          ei_printf("%d ", data[jx]);
+        }
+      }
+      else {
+        float* data = (float*)data_ptr;
+        ei_printf("        %lu (%zu bytes, ptr=%p, alloc_type=%d, type=%d): ", ix, d.bytes, data, (int)d.allocation_type, (int)d.type);
+        for (size_t jx = 0; jx < d.bytes / 4; jx++) {
+          ei_printf("%f ", data[jx]);
+        }
+      }
+      ei_printf("\n");
+    }
+    ei_printf("\n");
+
+    ei_printf("    outputs:\n");
+    for (size_t ix = 0; ix < tflNodes[i].outputs->size; ix++) {
+      auto d = tensorData[tflNodes[i].outputs->data[ix]];
+
+      size_t data_ptr = (size_t)d.data;
+
+      if (d.allocation_type == kTfLiteArenaRw) {
+        data_ptr = (size_t)tensor_arena + data_ptr;
+      }
+
+      if (d.type == TfLiteType::kTfLiteInt8) {
+        int8_t* data = (int8_t*)data_ptr;
+        ei_printf("        %lu (%zu bytes, ptr=%p, alloc_type=%d, type=%d): ", ix, d.bytes, data, (int)d.allocation_type, (int)d.type);
+        for (size_t jx = 0; jx < d.bytes; jx++) {
+          ei_printf("%d ", data[jx]);
+        }
+      }
+      else {
+        float* data = (float*)data_ptr;
+        ei_printf("        %lu (%zu bytes, ptr=%p, alloc_type=%d, type=%d): ", ix, d.bytes, data, (int)d.allocation_type, (int)d.type);
+        for (size_t jx = 0; jx < d.bytes / 4; jx++) {
+          ei_printf("%f ", data[jx]);
+        }
+      }
+      ei_printf("\n");
+    }
+    ei_printf("\n");
+#endif // EI_CLASSIFIER_PRINT_STATE
+
     if (status != kTfLiteOk) {
       return status;
     }
