@@ -1000,20 +1000,6 @@
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_init_q31.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q15.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_q31.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f16.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f16.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix8_f32.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_f32.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_dct4_init_f32.c</itemPath>
@@ -1027,10 +1013,6 @@
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f32.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c</itemPath>
-                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.c</itemPath>
               </logicalFolder>
             </logicalFolder>
@@ -1302,8 +1284,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
         <pack name="SAME54_DFP" vendor="Microchip" version="3.4.76"/>
+        <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1372,7 +1354,7 @@
         <property key="place-data-into-section" value="true"/>
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
-        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros" value="ARM_DSP_CONFIG_TABLES;ARM_FAST_ALLOW_TABLES;ARM_ALL_FAST_TABLES;ARM_FFT_ALLOW_TABLES;ARM_TABLE_REALCOEF_F32;ARM_TABLE_TWIDDLECOEF_F32_256;ARM_TABLE_BITREVIDX_FLT_256;ARM_TABLE_TWIDDLECOEF_F32_256;ARM_TABLE_TWIDDLECOEF_RFFT_F32_512;__TARGET_CPU_CORTEX_M4"/>
         <property key="strict-ansi" value="false"/>
         <property key="support-ansi" value="false"/>
         <property key="toplevel-reordering" value=""/>
@@ -1464,10 +1446,10 @@
         <property key="isolate-each-function" value="true"/>
         <property key="make-warnings-into-errors" value="false"/>
         <property key="optimization-level" value="-O2"/>
-        <property key="place-data-into-section" value="false"/>
+        <property key="place-data-into-section" value="true"/>
         <property key="post-instruction-scheduling" value="default"/>
         <property key="pre-instruction-scheduling" value="default"/>
-        <property key="preprocessor-macros" value=""/>
+        <property key="preprocessor-macros" value="__TARGET_CPU_CORTEX_M4"/>
         <property key="rtti" value="true"/>
         <property key="strict-ansi" value="false"/>
         <property key="toplevel-reordering" value=""/>
@@ -1487,7 +1469,7 @@
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
-        <appendMe value="-DEI_CLASSIFIER_SLICES_PER_MODEL_WINDOW=4 -D__TARGET_CPU_CORTEX_M4 -DEIDSP_USE_CMSIS_DSP=1 -DEI_CLASSIFIER_TFLITE_ENABLE_CMSIS_NN=1 -DEIDSP_QUANTIZE_FILTERBANK=1 -DEIDSP_TRACK_ALLOCATIONS=0 -DEIDSP_PRINT_ALLOCATIONS=0 -mno-newlib-nano"/>
+        <appendMe value="-DEI_CLASSIFIER_SLICES_PER_MODEL_WINDOW=4 -DEIDSP_USE_CMSIS_DSP=1 -mno-newlib-nano"/>
       </C32Global>
       <EdbgTool>
         <property key="AutoSelectMemRanges" value="auto"/>
@@ -1516,7 +1498,6 @@
         <property key="memories.programmemory.ranges" value="0-fffff"/>
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
-        <property key="programmerToGoFilePath" value="C:/Users/toemo/dev/tmp/ml-same54-cult-wm8904-edgeimpulse-kws-demo/ei_keywords_sam_e54_cult_wm8904.X/debug/sam_e54_cult_wm8904/ei_keywords_sam_e54_cult_wm8904_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
