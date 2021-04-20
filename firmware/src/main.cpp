@@ -98,7 +98,7 @@ extern "C" int get_feature_data(size_t offset, size_t length, float *out_ptr) {
     }
     
     for (size_t i=0; i < length; i++) { 
-        out_ptr[i] = (float) ptr[i + offset].rightData;
+        out_ptr[i] = ((float) ptr[i + offset].rightData) / 65536;
     }
     
     return EI_IMPULSE_OK;
