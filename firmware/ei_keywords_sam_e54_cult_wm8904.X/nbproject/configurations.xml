@@ -1014,6 +1014,24 @@
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_fast_init_f64.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_f32.c</itemPath>
                 <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/TransformFunctionsF16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f16.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c</itemPath>
+                <itemPath>../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c</itemPath>
               </logicalFolder>
             </logicalFolder>
           </logicalFolder>
@@ -1284,8 +1302,8 @@
         <platform>3</platform>
       </toolsSet>
       <packs>
-        <pack name="SAME54_DFP" vendor="Microchip" version="3.4.76"/>
         <pack name="CMSIS" vendor="ARM" version="5.4.0"/>
+        <pack name="SAME54_DFP" vendor="Microchip" version="3.5.87"/>
       </packs>
       <ScriptingSettings>
       </ScriptingSettings>
@@ -1314,6 +1332,42 @@
         <makeCustomizationEnableLongLines>false</makeCustomizationEnableLongLines>
         <makeCustomizationNormalizeHexFile>false</makeCustomizationNormalizeHexFile>
       </makeCustomizationType>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f16.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_f32.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_f32.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q15.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_init_q31.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q15.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix2_q31.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f16.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_f32.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_f32.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q15.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_init_q31.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q15.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_cfft_radix4_q31.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q15.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_init_q31.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q15.c">
+      </item>
+      <item ex="true" overriding="false" path="../src/edge-impulse-sdk/CMSIS/DSP/Source/TransformFunctions/arm_rfft_q31.c">
+      </item>
       <AtmelIceTool>
         <property key="AutoSelectMemRanges" value="auto"/>
         <property key="communication.interface" value="swd"/>
@@ -1428,6 +1482,7 @@
         <property key="symbol-stripping" value=""/>
         <property key="trace-symbols" value=""/>
         <property key="warn-section-align" value="false"/>
+        <appendMe value="-u _printf_float"/>
       </C32-LD>
       <C32CPP>
         <property key="additional-warnings" value="false"/>
@@ -1469,7 +1524,7 @@
         <property key="relaxed-math" value="false"/>
         <property key="save-temps" value="false"/>
         <property key="wpo-lto" value="false"/>
-        <appendMe value="-DEI_CLASSIFIER_SLICES_PER_MODEL_WINDOW=4 -DEIDSP_USE_CMSIS_DSP=1 -mno-newlib-nano"/>
+        <appendMe value="-DEI_CLASSIFIER_SLICES_PER_MODEL_WINDOW=4 -DEIDSP_USE_CMSIS_DSP=1"/>
       </C32Global>
       <EdbgTool>
         <property key="AutoSelectMemRanges" value="auto"/>
@@ -1498,6 +1553,7 @@
         <property key="memories.programmemory.ranges" value="0-fffff"/>
         <property key="memories.rww" value="true"/>
         <property key="poweroptions.powerenable" value="false"/>
+        <property key="programmerToGoFilePath" value="C:/Users/toemo/dev/git/tjgarcia-mchp/ml-same54-cult-wm8904-edgeimpulse-kws-demo/tmp/ei_keywords_sam_e54_cult_wm8904.X/debug/sam_e54_cult_wm8904/ei_keywords_sam_e54_cult_wm8904_ptg"/>
         <property key="programoptions.eraseb4program" value="true"/>
         <property key="programoptions.preservedataflash" value="false"/>
         <property key="programoptions.preservedataflash.ranges" value="${memories.dataflash.default}"/>
