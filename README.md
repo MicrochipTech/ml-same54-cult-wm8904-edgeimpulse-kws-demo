@@ -12,6 +12,12 @@ development board +
 audio daughterboard, as well as some tools to build your own dataset from the
 [Google Speech Commands](https://arxiv.org/abs/1804.03209) dataset.
 
+## Benchmarks
+Measured with ``-O2`` compiler optimizations and 120MHz Clock
+- 171kB Flash
+- 119kB RAM
+- 145ms Inference time
+
 ## Changing Keywords
 If you'd like to choose different keywords from the google speech commands for
 your application, the `dataset` directory contains code and instructions for

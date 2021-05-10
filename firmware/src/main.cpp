@@ -108,6 +108,22 @@ extern "C" int _open (const char *buf, int flags, int mode)
 {
     return 0;
 }
+
+void LEDTicker_Callback(uintptr_t context) {
+    static int ticker = 0;
+    int tickled = *((int *) context);
+    
+    if (tickled == 0) {
+        ticker = 0;
+        LED1_Off();
+        LED2_Off();
+    }
+    else if (++ticker == 1) {
+        if (tickled & 1) LED1_Toggle();
+        if (tickled & 2) LED2_Toggle();
+        ticker = 0;
+    }
+}
 // *****************************************************************************
 // *****************************************************************************
 // Section: Main Entry Point
@@ -116,8 +132,15 @@ extern "C" int _open (const char *buf, int flags, int mode)
 
 int main ( void )
 {
+    int tickled = 0;
+    
     /* Initialize all modules */
     SYS_Initialize ( NULL );
+    
+    /* Register and start the LED ticker */
+    DRV_HANDLE tmrHandle;
+    tmrHandle = SYS_TIME_CallbackRegisterMS(LEDTicker_Callback, 
+                    (uintptr_t) &tickled, 100, SYS_TIME_PERIODIC);    
     
     TC2_TimerStart();
     
@@ -160,25 +183,22 @@ int main ( void )
             printf("    %s: %f\r\n", result.classification[ix].label, result.classification[ix].value);
         }
 
-        if (maxval > 0.9) {
-            if (!strcmp(result.classification[maxidx].label, "yes")) {
-                LED2_On();
-            }
-            else if (!strcmp(result.classification[maxidx].label, "no")) {
-                LED1_On();
+        if (maxval > 0.8) {
+            if (!strcmp(result.classification[maxidx].label, "no")) {
+                tickled = 1;
+            }            
+            else if (!strcmp(result.classification[maxidx].label, "yes")) {
+                tickled = 2;
             }
             else if (!strcmp(result.classification[maxidx].label, "unknown")) {
-                LED1_On();
-                LED2_On();
+                tickled = 3;
             }
             else {
-                LED2_Off();
-                LED1_Off();
+                tickled = 0;
             }
         }
         else {
-            LED2_Off();
-            LED1_Off();
+            tickled = 0;
         }
     }
 
